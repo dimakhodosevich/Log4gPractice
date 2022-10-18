@@ -7,29 +7,39 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 public class Main {
-    private final static Logger LOGGER;
+    public final static Logger LOGGER;
 
     static {
         LOGGER = Logger.getRootLogger();
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        org.apache.log4j.BasicConfigurator.configure();
+        LOGGER.fatal("Logger fatal");
+        LOGGER.error("Logger error");
+        LOGGER.warn("Logger warn");
+        LOGGER.debug("Logger debug");
+        LOGGER.trace("Logger trace");
 
-        while (true) {
-            System.out.print("\nInput factorial number: ");
-            int number = scanner.nextInt();
 
-            if(number == -1){
-                break;
-            }
-
-            try {
-                System.out.printf("\nYour result %d!=%d", number, Factorial.factorial(number));
-            } catch (WrongNumberException e) {
-                System.out.println(e);
-                System.out.println(e.getMessage());
-            }
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        while (true) {
+//            System.out.print("\nInput factorial number: ");
+//            int number = scanner.nextInt();
+//
+//            if(number == -1){
+//                break;
+//            }
+//
+//            try {
+//                String msg = String.format("\nYour result %d!=%d", number, Factorial.factorial(number));
+//                System.out.printf(msg);
+//                LOGGER.info(msg);
+//            } catch (WrongNumberException e) {
+//
+//                LOGGER.fatal(e.getMessage(), e);
+//            }
+//        }
     }
 }

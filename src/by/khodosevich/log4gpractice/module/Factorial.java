@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
+import static by.khodosevich.log4gpractice.controller.Main.LOGGER;
+
 public class Factorial {
     private static int count; // count program calls
 
@@ -19,16 +21,16 @@ public class Factorial {
     }
     public static int factorial(int number) throws WrongNumberException{
         count++;
-        System.err.println("-----------------------");
-        System.err.println("Program calls: " + count);
-        System.err.println("Method starts with arg = " + number);
+        LOGGER.debug("-----------------------");
+        LOGGER.debug("Program calls: " + count);
+        LOGGER.debug("Method starts with arg = " + number);
         if(number<0){
-            System.err.println("Exception. Wrong number!!! Number should be positive.");
+            LOGGER.debug("Exception. Wrong number!!! Number should be positive.");
             throw new WrongNumberException("Your number less then 0");
         }
 
         int factorial = 1;
-        System.err.println("Algorithm starts with factorial = " + factorial);
+        LOGGER.debug("Algorithm starts with factorial = " + factorial);
 
         if(number==0 || number == 1){
             return factorial;
@@ -38,7 +40,7 @@ public class Factorial {
             factorial *= i;
         }
 
-        System.err.println("Method ends with result = "+ factorial);
+        LOGGER.info("Method ends with result = "+ factorial);
 
         return  factorial;
     }
