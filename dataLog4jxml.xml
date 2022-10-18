@@ -1,0 +1,243 @@
+<log4j:message xmlns:log4j="http://www.w3.org/1999/XSL/Transform">
+
+<log4j:event logger="root" timestamp="1666127938796" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938796" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938802" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="FATAL" thread="main">
+<log4j:message><![CDATA[Logger fatal]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="ERROR" thread="main">
+<log4j:message><![CDATA[Logger error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="WARN" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="INFO" thread="main">
+<log4j:message><![CDATA[Logger warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Logger debug]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666127938803" level="TRACE" thread="main">
+<log4j:message><![CDATA[Logger trace]]></log4j:message>
+</log4j:event>
+
+</log4j:message>
