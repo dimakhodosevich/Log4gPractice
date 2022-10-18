@@ -29,13 +29,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        LOGGER.fatal("Logger fatal");
-        LOGGER.error("Logger error");
-        LOGGER.warn("Logger warn");
-        LOGGER.info("Logger warn");
-        LOGGER.debug("Logger debug");
-        LOGGER.trace("Logger trace");
+        for (int i = 0; i < 10; i++) {
 
+            LOGGER.fatal("Logger fatal");
+            LOGGER.error("Logger error");
+            LOGGER.warn("Logger warn");
+            LOGGER.info("Logger warn");
+            LOGGER.debug("Logger debug");
+            LOGGER.trace("Logger trace");
+
+        }
 
 //        Scanner scanner = new Scanner(System.in);
 //
