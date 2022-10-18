@@ -4,6 +4,9 @@ import by.khodosevich.log4gpractice.module.Factorial;
 import by.khodosevich.log4gpractice.module.exception.WrongNumberException;
 
 import java.util.Scanner;
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 public class Main {
@@ -14,10 +17,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        org.apache.log4j.BasicConfigurator.configure();
+        BasicConfigurator.configure();
+        LOGGER.setLevel(Level.ALL);
         LOGGER.fatal("Logger fatal");
         LOGGER.error("Logger error");
         LOGGER.warn("Logger warn");
+        LOGGER.info("Logger warn");
         LOGGER.debug("Logger debug");
         LOGGER.trace("Logger trace");
 
