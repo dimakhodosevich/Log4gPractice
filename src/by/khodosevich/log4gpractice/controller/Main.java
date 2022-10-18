@@ -4,8 +4,15 @@ import by.khodosevich.log4gpractice.module.Factorial;
 import by.khodosevich.log4gpractice.module.exception.WrongNumberException;
 
 import java.util.Scanner;
+import org.apache.log4j.Logger;
 
 public class Main {
+    private final static Logger LOGGER;
+
+    static {
+        LOGGER = Logger.getRootLogger();
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
