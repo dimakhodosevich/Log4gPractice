@@ -8,13 +8,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Input factorial number: ");
-        int number = scanner.nextInt();
-        try {
-            System.out.printf("\nYour result %d!=%d", number, Factorial.factorial(number));
-        } catch (WrongNumberException e){
-            System.out.println(e);
-            System.out.println(e.getMessage());
+
+        while (true) {
+            System.out.print("\nInput factorial number: ");
+            int number = scanner.nextInt();
+
+            if(number == -1){
+                break;
+            }
+
+            try {
+                System.out.printf("\nYour result %d!=%d", number, Factorial.factorial(number));
+            } catch (WrongNumberException e) {
+                System.out.println(e);
+                System.out.println(e.getMessage());
+            }
         }
     }
 }
