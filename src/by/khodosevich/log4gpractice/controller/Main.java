@@ -29,35 +29,25 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
 
-            LOGGER.fatal("Logger fatal");
-            LOGGER.error("Logger error");
-            LOGGER.warn("Logger warn");
-            LOGGER.info("Logger warn");
-            LOGGER.debug("Logger debug");
-            LOGGER.trace("Logger trace");
+        Scanner scanner = new Scanner(System.in);
 
+        while (true) {
+            System.out.print("\nInput factorial number: ");
+            int number = scanner.nextInt();
+
+            if(number == -1){
+                break;
+            }
+
+            try {
+                String msg = String.format("\nYour result %d!=%d", number, Factorial.factorial(number));
+                System.out.printf(msg);
+                LOGGER.info(msg);
+            } catch (WrongNumberException e) {
+
+                LOGGER.fatal(e.getMessage(), e);
+            }
         }
-
-//        Scanner scanner = new Scanner(System.in);
-//
-//        while (true) {
-//            System.out.print("\nInput factorial number: ");
-//            int number = scanner.nextInt();
-//
-//            if(number == -1){
-//                break;
-//            }
-//
-//            try {
-//                String msg = String.format("\nYour result %d!=%d", number, Factorial.factorial(number));
-//                System.out.printf(msg);
-//                LOGGER.info(msg);
-//            } catch (WrongNumberException e) {
-//
-//                LOGGER.fatal(e.getMessage(), e);
-//            }
-//        }
     }
 }

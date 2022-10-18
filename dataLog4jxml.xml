@@ -240,4 +240,77 @@
 <log4j:message><![CDATA[Logger trace]]></log4j:message>
 </log4j:event>
 
-</log4j:message>
+</log4j:message><log4j:event logger="root" timestamp="1666128161547" level="DEBUG" thread="main">
+<log4j:message><![CDATA[-----------------------]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128161563" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Program calls: 1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128161563" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Method starts with arg = 5]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128161563" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Algorithm starts with factorial = 1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128161563" level="INFO" thread="main">
+<log4j:message><![CDATA[Method ends with result = 120]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128161563" level="INFO" thread="main">
+<log4j:message><![CDATA[
+Your result 5!=120]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="DEBUG" thread="main">
+<log4j:message><![CDATA[-----------------------]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Program calls: 2]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Method starts with arg = 3]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Algorithm starts with factorial = 1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="INFO" thread="main">
+<log4j:message><![CDATA[Method ends with result = 6]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128164821" level="INFO" thread="main">
+<log4j:message><![CDATA[
+Your result 3!=6]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128169187" level="DEBUG" thread="main">
+<log4j:message><![CDATA[-----------------------]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128169187" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Program calls: 3]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128169187" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Method starts with arg = -7]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128169187" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Exception. Wrong number!!! Number should be positive.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1666128169187" level="FATAL" thread="main">
+<log4j:message><![CDATA[Your number less then 0]]></log4j:message>
+<log4j:throwable><![CDATA[by.khodosevich.log4gpractice.module.exception.WrongNumberException: Your number less then 0
+	at by.khodosevich.log4gpractice.module.Factorial.factorial(Factorial.java:29)
+	at by.khodosevich.log4gpractice.controller.Main.main(Main.java:44)
+]]></log4j:throwable>
+</log4j:event>
+

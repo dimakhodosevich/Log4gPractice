@@ -1,60 +1,22 @@
-FATAL	2022-10-19 00:18:58,796	0	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,796	0	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,796	0	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,796	0	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,796	0	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,796	0	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,796	0	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,796	0	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,796	0	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,796	0	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,796	0	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,796	0	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,796	0	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,796	0	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,802	6	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,802	6	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,802	6	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,802	6	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,802	6	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,802	6	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,802	6	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,802	6	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,802	6	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,802	6	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,802	6	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,802	6	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,802	6	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,802	6	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,802	6	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,802	6	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,803	7	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,803	7	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,803	7	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,803	7	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,803	7	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,803	7	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,803	7	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,803	7	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,803	7	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,803	7	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,803	7	root	[main]	Logger trace
-FATAL	2022-10-19 00:18:58,803	7	root	[main]	Logger fatal
-ERROR	2022-10-19 00:18:58,803	7	root	[main]	Logger error
-WARN	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-INFO	2022-10-19 00:18:58,803	7	root	[main]	Logger warn
-DEBUG	2022-10-19 00:18:58,803	7	root	[main]	Logger debug
-TRACE	2022-10-19 00:18:58,803	7	root	[main]	Logger trace
+DEBUG	2022-10-19 00:22:41,547	0	root	[main]	-----------------------
+DEBUG	2022-10-19 00:22:41,563	16	root	[main]	Program calls: 1
+DEBUG	2022-10-19 00:22:41,563	16	root	[main]	Method starts with arg = 5
+DEBUG	2022-10-19 00:22:41,563	16	root	[main]	Algorithm starts with factorial = 1
+INFO	2022-10-19 00:22:41,563	16	root	[main]	Method ends with result = 120
+INFO	2022-10-19 00:22:41,563	16	root	[main]	
+Your result 5!=120
+DEBUG	2022-10-19 00:22:44,821	3274	root	[main]	-----------------------
+DEBUG	2022-10-19 00:22:44,821	3274	root	[main]	Program calls: 2
+DEBUG	2022-10-19 00:22:44,821	3274	root	[main]	Method starts with arg = 3
+DEBUG	2022-10-19 00:22:44,821	3274	root	[main]	Algorithm starts with factorial = 1
+INFO	2022-10-19 00:22:44,821	3274	root	[main]	Method ends with result = 6
+INFO	2022-10-19 00:22:44,821	3274	root	[main]	
+Your result 3!=6
+DEBUG	2022-10-19 00:22:49,187	7640	root	[main]	-----------------------
+DEBUG	2022-10-19 00:22:49,187	7640	root	[main]	Program calls: 3
+DEBUG	2022-10-19 00:22:49,187	7640	root	[main]	Method starts with arg = -7
+DEBUG	2022-10-19 00:22:49,187	7640	root	[main]	Exception. Wrong number!!! Number should be positive.
+FATAL	2022-10-19 00:22:49,187	7640	root	[main]	Your number less then 0
+by.khodosevich.log4gpractice.module.exception.WrongNumberException: Your number less then 0
+	at by.khodosevich.log4gpractice.module.Factorial.factorial(Factorial.java:29)
+	at by.khodosevich.log4gpractice.controller.Main.main(Main.java:44)
